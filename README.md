@@ -28,7 +28,7 @@
 - [联系我们](#联系我们)
   
 ---
-# 📌 **背景** <a id="background"></a>
+# 📌 **背景** <a id="背景"></a>
 
 在企业的多分支机构或门店中，**安全稳定的网络互联** 是至关重要的。然而，传统VPN方案面临以下挑战：
 
@@ -36,14 +36,14 @@
 ❌ **无法智能识别业务**：关键应用与普通流量混用，影响业务体验。  
 ❌ **管理繁琐**：配置复杂，运维人员负担重。  
 
-## 🚀 **新一代 iWAN 解决方案** <a id="new-solution"></a>
+## 🚀 **新一代 iWAN 解决方案** <a id="新一代-iWAN-解决方案"></a>
 ✅ **低成本**：替代传统专线，减少网络开销。  
 ✅ **智能流量调度**：业务精准分流，保障核心应用。  
 ✅ **快速部署**：一键上线，适应不同网络环境。  
 
 ---
 
-# 🔥 **传统分支组网的痛点** <a id="traditional-pain"></a>
+# 🔥 **传统分支组网的痛点** <a id="传统分支组网的痛点"></a>
 
 ## 📈 **业务流量激增，专线扩容成本高** <a id="traffic-increase"></a>
 - 视频会议、AI识别等应用占用大量带宽，专线扩容费用高昂。
@@ -59,7 +59,7 @@
 
 ---
 
-# 🚀 **新型 iWAN 组网架构** <a id="new-iwan-architecture"></a>
+# 🚀 **新型 iWAN 组网架构** <a id="新型-iWAN-组网架构"></a>
 
 ## **📌 VPN隧道技术比较** <a id="vpn-comparison"></a>
 ![VPN隧道技术比较](assets/VPN_Tunneling_Comparison.png)
@@ -78,9 +78,9 @@
 
 ---
 
-# 🔍 **典型应用场景** <a id="use-cases"></a>
+# 🔍 **典型应用场景** <a id="典型应用场景"></a>
 
-## 🏢 **企业多分支互联** <a id="enterprise-interconnection"></a>
+## 🏢 **企业多分支互联** <a id="企业多分支互联"></a>
 ### 📌 **需求** <a id="enterprise-needs"></a>
 - 需要高效、安全的分支互联方案，降低专线成本。
 - 保障关键业务（如ERP、OA系统）稳定访问总部资源。
@@ -95,7 +95,7 @@
 
 ---
 
-## 🏥 **乡镇医共体 SD-WAN 解决方案** <a id="rural-solution"></a>
+## 🏥 **乡镇医共体 SD-WAN 解决方案** <a id="乡镇医共体-SD-WAN-解决方案"></a>
 ### 📌 **需求** <a id="rural-needs"></a>
 - 乡镇诊所、医院间需高效互联，保证医疗数据传输安全。
 - 解决乡镇网络质量差、缺乏专业IT运维的问题。
@@ -110,7 +110,7 @@
 
 ---
 
-## 🍵 **连锁门店无线互联** <a id="store-networking"></a>
+## 🍵 **连锁门店无线互联** <a id="连锁门店无线互联"></a>
 ### 📌 **需求** <a id="store-needs"></a>
 - 全国门店 WiFi 需要统一管理，保证收银系统稳定。  
 - 提供访客 WiFi，避免影响业务网络。  
@@ -125,9 +125,9 @@
 
 ---
 
-# ⚙️ **iWAN 配置指南** <a id="iwan-configuration"></a>
+# ⚙️ **iWAN 配置指南** <a id="iWAN-配置指南"></a>
 
-## **iWAN 服务器配置** <a id="server-configuration"></a>
+## **iWAN 服务器配置** <a id="iWAN-服务端配置"></a>
 📌 **配置步骤**：
 1️⃣ 配置 **WAN 接口**，绑定公网 IP。  
 2️⃣ 设置 **地址池**，分配私网 IP。  
@@ -143,7 +143,7 @@
 
 ---
 
-## **iWAN 客户端配置** <a id="client-configuration"></a>
+## **iWAN 客户端配置** <a id="iWAN-客户端配置"></a>
 📌 **配置步骤**：
 1️⃣ 选择 `iWAN` 作为WAN线路类型。  
 2️⃣ 输入 **iWAN 服务器地址、端口、账号、密码**。  
@@ -153,7 +153,7 @@
 ![iWAN客户端配置](assets/iWAN_Client_Conf_1.png)
 ![iWAN客户端配置](assets/iWAN_Client_Conf_2.png)
 
-# 📞 **联系我们** <a id="contact-us"></a>  
+# 📞 **联系我们** <a id="联系我们"></a>  
 🔗 访问官网：[www.panabit.com](https://www.panabit.com/)  
 🔗 访问论坛：[bbs.panabit.com](https://bbs.panabit.com/)  
 📞 联系我们，获取更详细的解决方案！
