@@ -1,1 +1,168 @@
+<a name="readme-top"></a>
+<h1 align="center">
+  <img src="assets/Panabit.png" alt="Panabit" width="240" height="72">
+  <br>
+  Panabit Intelligent Application Gateway
+</h1>
+<h4 align="center">Integrated Smart Application Gateway for Network Egress</h4>
+
+<p align="center">
+  <a href="README_EN.md" style="color: #007bff; text-decoration: none; font-weight: bold;">English</a> | <span style="color: #007bff; font-weight: bold;">中文</span>
+</p>
+
+---
+
+# 📑 **Table of Contents**
+
+- [Background](#background)
+- [Next-Generation iWAN Solution](#next-generation-iwan-solution)
+- [Challenges of Traditional Branch Networking](#challenges-of-traditional-branch-networking)
+- [New iWAN Network Architecture](#new-iwan-network-architecture)
+- [Typical Application Scenarios](#typical-application-scenarios)
+  - [Enterprise Multi-Branch Interconnection](#enterprise-multi-branch-interconnection)
+  - [Township Medical SD-WAN Solution](#township-medical-sd-wan-solution)
+  - [Chain Store Wireless Interconnection](#chain-store-wireless-interconnection)
+- [iWAN Configuration Guide](#iwan-configuration-guide)
+  - [iWAN Server Configuration](#iwan-server-configuration)
+  - [iWAN Client Configuration](#iwan-client-configuration)
+- [Contact Us](#contact-us)
+  
+---
+# 📌 **Background** <a id="background"></a>
+
+For enterprises with multiple branches or stores, **secure and stable network interconnection** is crucial. However, traditional VPN solutions face several challenges:
+
+❌ **Complex deployment and high costs**: Long setup cycles and expensive maintenance.  
+❌ **Inability to intelligently identify business traffic**: Mixing critical applications with general traffic degrades user experience.  
+❌ **Cumbersome management**: Complex configurations increase operational burdens.  
+
+## 🚀 **Next-Generation iWAN Solution** <a id="next-generation-iwan-solution"></a>
+✅ **Cost-effective**: Replaces traditional leased lines, reducing network expenses.  
+✅ **Intelligent traffic scheduling**: Ensures priority for critical business applications.  
+✅ **Quick deployment**: One-click setup, adaptable to various network environments.  
+
+---
+
+# 🔥 **Challenges of Traditional Branch Networking** <a id="challenges-of-traditional-branch-networking"></a>
+
+## 📈 **Increasing Business Traffic and Expensive Bandwidth Upgrades**
+- Applications like video conferencing and AI recognition consume large amounts of bandwidth, making leased line expansion costly.
+
+## 🚦 **Bandwidth Contention Degrades Core Business Performance**
+- Critical applications share bandwidth with general traffic, causing congestion and delays.
+
+## ⏳ **Slow Backup Line Switching and Low Resource Utilization**
+- Traditional backup switching takes too long, leaving backup lines unused most of the time.
+
+## ⚙️ **Complex Router & VPN Configurations**
+- Decentralized device management increases operational costs and complexity.
+
+---
+
+# 🚀 **New iWAN Network Architecture** <a id="new-iwan-network-architecture"></a>
+
+## **📌 VPN Tunneling Technology Comparison**
+![VPN Tunneling Comparison](assets/VPN_Tunneling_Comparison.png)
+
+## **iWAN Solution Advantages**
+✅ **Intelligent Traffic Scheduling**: Routes critical business through optimal links for better stability.  
+✅ **Zero Configuration Deployment**: Supports automatic setup without manual configuration.  
+✅ **High Availability**: Multi-link intelligent switching prevents network disruptions.  
+✅ **Cloud-Based Centralized Management**: Unified device monitoring for simplified operations.  
+
+## **iWAN Transmission Optimization**
+- **Dynamic Path Selection**: Automatically chooses the best route based on real-time link quality.  
+- **NAT Traversal**: Works in complex network environments for improved compatibility.  
+- **High-Efficiency Transmission Protocols**: Reduces overhead by 30% compared to traditional VPNs for faster speeds.  
+- **Intelligent Traffic Control**: Prioritizes video, voice, and office applications to ensure smooth operations.  
+
+---
+
+# 🔍 **Typical Application Scenarios** <a id="typical-application-scenarios"></a>
+
+## 🏢 **Enterprise Multi-Branch Interconnection** <a id="enterprise-multi-branch-interconnection"></a>
+### 📌 **Requirements**
+- Secure and efficient interconnection across branches while reducing leased line costs.
+- Ensure stable access to headquarters’ ERP and OA systems.
+
+### 🔧 **Solution**
+✅ Deploy **Panabit iWAN Gateway** at headquarters for centralized traffic management.  
+✅ Deploy **iWAN devices** at branch locations for automatic headquarters access.  
+✅ **Application-Level Traffic Control** ensures priority for ERP and OA systems.  
+
+📌 **Diagram**
+![Enterprise iWAN Solution](assets/Typical_Case_1.png)
+
+---
+
+## 🏥 **Township Medical SD-WAN Solution** <a id="township-medical-sd-wan-solution"></a>
+### 📌 **Requirements**
+- Efficient interconnection between rural clinics and hospitals for secure medical data transmission.
+- Address poor network quality and lack of IT personnel in townships.
+
+### 🔧 **Solution**
+✅ Township hospitals act as **SD-WAN POP nodes**, with clinics connecting via iWAN tunnels.  
+✅ **Remote Medical Acceleration** ensures stable operation of HIS, PACS, and imaging systems.  
+✅ **Automatic Traffic Scheduling** enhances medical service experience.  
+
+📌 **Diagram**
+![Township Medical SD-WAN](assets/Typical_Case_2.png)
+
+---
+
+## 🍵 **Chain Store Wireless Interconnection** <a id="chain-store-wireless-interconnection"></a>
+### 📌 **Requirements**
+- Centralized WiFi management for nationwide stores to ensure stable POS system operation.
+- Provide guest WiFi without affecting business networks.
+
+### 🔧 **Solution**
+✅ **iWAN + Small APs**: Remote management for store WiFi with QR code setup.  
+✅ **Intelligent Traffic Control**: Prioritizes bandwidth for POS systems and surveillance.  
+✅ **SSID Management**: Separates employee and guest networks for enhanced security.  
+
+📌 **Diagram**
+![Chain Store WiFi Solution](assets/Typical_Case_3.png)
+
+---
+
+# ⚙️ **iWAN Configuration Guide** <a id="iwan-configuration-guide"></a>
+
+## **iWAN Server Configuration** <a id="iwan-server-configuration"></a>
+📌 **Steps**:
+1️⃣ Configure **WAN Interface** and bind public IP
+
+📌 **Diagram**
+![iWAN Server Configuration](assets/iWAN_Server_Conf_1.png)  
+2️⃣ Set **Address Pool** to allocate private IPs
+
+📌 **Diagram**
+![iWAN Server Configuration](assets/iWAN_Server_Conf_2.png)  
+3️⃣ Create **iWAN Authentication Account** (Username: `test`, Password: `123456`)
+
+📌 **Diagram**
+![iWAN Server Configuration](assets/iWAN_Server_Conf_3.png)  
+4️⃣ Enable **iWAN Service** and bind authentication settings
+
+📌 **Diagram**
+![iWAN Server Configuration](assets/iWAN_Server_Conf_5.png)
+
+---
+
+## **iWAN Client Configuration** <a id="iwan-client-configuration"></a>
+📌 **Steps**:
+1️⃣ Select `iWAN` as the WAN connection type
+
+📌 **Diagram**
+![iWAN Client Configuration](assets/iWAN_Client_Conf_1.png)
+2️⃣ Enter **iWAN Server Address, Port, Username, Password**  
+3️⃣ Save and apply settings to automatically connect to headquarters
+
+📌 **Diagram**
+![iWAN Client Configuration](assets/iWAN_Client_Conf_2.png)
+
+# 📞 **Contact Us** <a id="contact-us"></a>  
+🔗 Official Website: [www.panabit.com](https://www.panabit.com/)  
+🔗 Forum: [bbs.panabit.com](https://bbs.panabit.com/)  
+📧 Technical Support: support@panabit.com
+
 
