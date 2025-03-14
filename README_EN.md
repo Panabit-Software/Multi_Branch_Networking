@@ -62,7 +62,14 @@ For enterprises with multiple branches or stores, **secure and stable network in
 # 🚀 **New iWAN Network Architecture** <a id="new-iwan-network-architecture"></a>
 
 ## **📌 VPN Tunneling Technology Comparison**
-![VPN Tunneling Comparison](assets/VPN_Tunneling_Comparison.png)
+| **Parameter**             | **iWAN**                                                            | **Dedicated Line**                          | **IPSec**                                         | **L2TP**                                              |
+|---------------------------|---------------------------------------------------------------------|---------------------------------------------|---------------------------------------------------|-------------------------------------------------------|
+| **Construction Cost**     | Moderate                                                            | High                                        | Moderate                                          | Low                                                   |
+| **Security**              | End-to-end                                                          | End-to-end                                  | High security, lower transmission efficiency      | No encryption, can be terminated                      |
+| **Stability**             | Lightweight client integrity check, reliable connection             | Depends on fiber quality                    | Secure connection                                 | Point-to-point tunnel, average reliability            |
+| **Connection Speed**      | Fast speed, supports large concurrent sessions                      | Point-to-point direct connection            | Multiple key exchanges required, average speed    | Multiple processing steps at exit, average efficiency |
+| **Transmission Efficiency** | 8-byte iWAN header, high efficiency                                  | Point-to-point, relatively high efficiency | Relatively low transmission efficiency            | Point-to-point, average transmission efficiency       |
+
 
 ## **iWAN Solution Advantages**
 ✅ **Intelligent Traffic Scheduling**: Routes critical business through optimal links for better stability.  
