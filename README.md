@@ -130,15 +130,19 @@
 ## **iWAN 服务器配置** <a id="iWAN-服务端配置"></a>
 📌 **配置步骤**：
 1️⃣ 配置 **WAN 接口**，绑定公网 IP
+
 📌 **示意图**  
 ![iWAN服务器配置](assets/iWAN_Server_Conf_1.png)  
 2️⃣ 设置 **地址池**，分配私网 IP
+
 📌 **示意图**  
 ![iWAN服务器配置](assets/iWAN_Server_Conf_2.png)  
 3️⃣ 创建 **iWAN 认证账号**（账号 `test`，密码 `123456`）
+
 📌 **示意图**  
 ![iWAN服务器配置](assets/iWAN_Server_Conf_3.png)  
 4️⃣ 启用 **iWAN 服务**，绑定认证方式
+
 📌 **示意图**  
 ![iWAN服务器配置](assets/iWAN_Server_Conf_5.png)
 
@@ -147,10 +151,12 @@
 ## **iWAN 客户端配置** <a id="iWAN-客户端配置"></a>
 📌 **配置步骤**：
 1️⃣ 选择 `iWAN` 作为WAN线路类型
+
 📌 **示意图**  
 ![iWAN客户端配置](assets/iWAN_Client_Conf_1.png)
-2️⃣ 输入 **iWAN 服务器地址、端口、账号、密码**。  
+2️⃣ 输入 **iWAN 服务器地址、端口、账号、密码**  
 3️⃣ 保存并应用配置，即可自动接入总部网络
+
 📌 **示意图**  
 ![iWAN客户端配置](assets/iWAN_Client_Conf_2.png)
 
