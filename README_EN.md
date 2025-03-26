@@ -164,7 +164,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 2️⃣ Enter **iWAN Server Address, Port, Username, Password**  
 3️⃣ Save and apply settings to automatically connect to headquarters
 
-📌 **Diagram**
+📌 **Diagram**    
 ![iWAN Client Configuration](assets/iWAN_Client_Conf_2.png)
 
 # 📞 **Contact Us** <a id="contact-us"></a>  
