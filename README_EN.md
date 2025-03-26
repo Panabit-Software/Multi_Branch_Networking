@@ -98,7 +98,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 ✅ **Application-Level Traffic Control** ensures priority for ERP and OA systems.  
 
 📌 **Diagram**
-![Enterprise iWAN Solution](assets/Typical_Case_1.png)
+![Enterprise iWAN Solution](assets_EN/Typical_Case_1_EN.png)
 
 ---
 
@@ -113,7 +113,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 ✅ **Automatic Traffic Scheduling** enhances medical service experience.  
 
 📌 **Diagram**
-![Township Medical SD-WAN](assets/Typical_Case_2.png)
+![Township Medical SD-WAN](assets_EN/Typical_Case_2_EN.png)
 
 ---
 
@@ -128,7 +128,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 ✅ **SSID Management**: Separates employee and guest networks for enhanced security.  
 
 📌 **Diagram**
-![Chain Store WiFi Solution](assets/Typical_Case_3.png)
+![Chain Store WiFi Solution](assets_EN/Typical_Case_3_EN.png)
 
 ---
 
@@ -139,19 +139,19 @@ For enterprises with multiple branches or stores, **secure and stable network in
 1️⃣ Configure **WAN Interface** and bind public IP
 
 📌 **Diagram**
-![iWAN Server Configuration](assets/iWAN_Server_Conf_1.png)  
+![iWAN Server Configuration](assets_EN/iWAN_Server_Conf_1_EN.png)  
 2️⃣ Set **Address Pool** to allocate private IPs
 
 📌 **Diagram**
-![iWAN Server Configuration](assets/iWAN_Server_Conf_2.png)  
+![iWAN Server Configuration](assets_EN/iWAN_Server_Conf_2_EN.png)  
 3️⃣ Create **iWAN Authentication Account** (Username: `test`, Password: `123456`)
 
 📌 **Diagram**
-![iWAN Server Configuration](assets/iWAN_Server_Conf_3.png)  
+![iWAN Server Configuration](assets_EN/iWAN_Server_Conf_3_EN.png)  
 4️⃣ Enable **iWAN Service** and bind authentication settings
 
 📌 **Diagram**
-![iWAN Server Configuration](assets/iWAN_Server_Conf_5.png)
+![iWAN Server Configuration](assets_EN/iWAN_Server_Conf_5_EN.png)
 
 ---
 
@@ -160,12 +160,12 @@ For enterprises with multiple branches or stores, **secure and stable network in
 1️⃣ Select `iWAN` as the WAN connection type
 
 📌 **Diagram**
-![iWAN Client Configuration](assets/iWAN_Client_Conf_1.png)
+![iWAN Client Configuration](assets_EN/iWAN_Client_Conf_1_EN.png)
 2️⃣ Enter **iWAN Server Address, Port, Username, Password**  
 3️⃣ Save and apply settings to automatically connect to headquarters
 
 📌 **Diagram**
-![iWAN Client Configuration](assets/iWAN_Client_Conf_2.png)
+![iWAN Client Configuration](assets_EN/iWAN_Client_Conf_2_EN.png)
 
 # 📞 **Contact Us** <a id="contact-us"></a>  
 🔗 Official Website: [www.panabit.com](https://www.panabit.com/)  
