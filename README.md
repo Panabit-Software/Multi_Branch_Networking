@@ -144,6 +144,7 @@
 4️⃣ 启用 **iWAN 服务**，绑定认证方式
 
 📌 **示意图**  
+![iWAN服务器配置](assets/iWAN_Server_Conf_4.png)
 ![iWAN服务器配置](assets/iWAN_Server_Conf_5.png)
 
 ---
