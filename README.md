@@ -121,7 +121,7 @@
 ✅ **分SSID管理**：员工、访客网络隔离，保障安全。  
 
 📌 **示意图**  
-![连锁门店WiFi方案](assets/Typical_Case_2.png)
+![连锁门店WiFi方案](assets/Typical_Case_3.png)
 
 ---
 
