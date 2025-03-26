@@ -165,7 +165,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 3️⃣ Save and apply settings to automatically connect to headquarters
 
 📌 **Diagram**
-![iWAN Client Configuration](assets_EN/iWAN_Client_Conf_2_EN.png)
+![iWAN Client Configuration](assets/iWAN_Client_Conf_2.png)
 
 # 📞 **Contact Us** <a id="contact-us"></a>  
 🔗 Official Website: [www.panabit.com](https://www.panabit.com/)  
