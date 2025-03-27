@@ -7,7 +7,7 @@
 <h4 align="center">出口一体化智能应用网关</h4>
 
 <p align="center">
-  <a href="README_EN.md" style="color: #007bff; text-decoration: none; font-weight: bold;">English</a> | <span style="color: #007bff; font-weight: bold;">中文</span>
+  <a href="README.md" style="color: #007bff; text-decoration: none; font-weight: bold;">English</a> | <span style="color: #007bff; font-weight: bold;">中文</span>
 </p>
 
 ---
