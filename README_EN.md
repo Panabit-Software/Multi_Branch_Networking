@@ -102,7 +102,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 
 ---
 
-## 🏥 **Township Medical SD-WAN Solution** <a id="township-medical-sd-wan-solution"></a>
+## 🏥 **Rural Healthcare SD-WAN Solution** <a id="township-medical-sd-wan-solution"></a>
 ### 📌 **Requirements**
 - Efficient interconnection between rural clinics and hospitals for secure medical data transmission.
 - Address poor network quality and lack of IT personnel in townships.
@@ -117,7 +117,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 
 ---
 
-## 🍵 **Chain Store Wireless Interconnection** <a id="chain-store-wireless-interconnection"></a>
+## 🍵 **Chain Store WiFi Connectivity** <a id="chain-store-wireless-interconnection"></a>
 ### 📌 **Requirements**
 - Centralized WiFi management for nationwide stores to ensure stable POS system operation.
 - Provide guest WiFi without affecting business networks.
