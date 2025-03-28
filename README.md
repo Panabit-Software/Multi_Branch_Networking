@@ -26,6 +26,7 @@
   - [iWAN Server Configuration](#iwan-server-configuration)
   - [iWAN Client Download](#iwan-client-download)
   - [iWAN Client Configuration](#iwan-client-configuration)
+    - [Panabit Configuration](#panabit-configuration)
     - [Windows Configuration](#windows-configuration)
     - [Android Configuration](#android-configuration)
     - [iOS Configuration](#ios-configuration)
