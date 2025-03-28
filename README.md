@@ -20,13 +20,19 @@
 - [New iWAN Network Architecture](#new-iwan-network-architecture)
 - [Typical Application Scenarios](#typical-application-scenarios)
   - [Enterprise Multi-Branch Interconnection](#enterprise-multi-branch-interconnection)
-  - [Township Medical SD-WAN Solution](#township-medical-sd-wan-solution)
-  - [Chain Store Wireless Interconnection](#chain-store-wireless-interconnection)
+  - [Rural Healthcare SD-WAN Solution](#township-medical-sd-wan-solution)
+  - [Chain Store WiFi Connectivity](#chain-store-wireless-interconnection)
 - [iWAN Configuration Guide](#iwan-configuration-guide)
   - [iWAN Server Configuration](#iwan-server-configuration)
+  - [iWAN Client Download](#iwan-client-download)
   - [iWAN Client Configuration](#iwan-client-configuration)
+    - [Windows Configuration](#windows-configuration)
+    - [Android Configuration](#android-configuration)
+    - [iOS Configuration](#ios-configuration)
+    - [Linux Configuration](#linux-configuration)
 - [Contact Us](#contact-us)
-  
+
+
 ---
 # 📌 **Background** <a id="background"></a>
 
@@ -62,6 +68,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 # 🚀 **New iWAN Network Architecture** <a id="new-iwan-network-architecture"></a>
 
 ## **📌 VPN Tunneling Technology Comparison**
+
 | **Parameter**             | **iWAN**                                                            | **Dedicated Line**                          | **IPSec**                                         | **L2TP**                                              |
 |---------------------------|---------------------------------------------------------------------|---------------------------------------------|---------------------------------------------------|-------------------------------------------------------|
 | **Construction Cost**     | Moderate                                                            | High                                        | Moderate                                          | Low                                                   |
