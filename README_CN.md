@@ -248,7 +248,7 @@ chmod +x /root/sdwand
 /root/sdwand &
 ```
 
-####  🔍 **验证-iwan-设备**
+####  🔍 **验证iwan设备**
 
 运行 ifconfig 可以看到添加的 iwan0 接口，并且会自动分配IP。
 
