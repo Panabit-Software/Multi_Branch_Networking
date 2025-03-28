@@ -155,6 +155,15 @@ For enterprises with multiple branches or stores, **secure and stable network in
 
 ---
 
+## **iWAN Client Download** <a id="iwan-client-download"></a>
+
+📥 **iWAN Client Download Link**: [👉 Click to Download](https://download.panabit.com:9443/ecool.php)
+
+> 📝 **Note**: The package includes Windows, Android, and Linux versions.
+
+
+---
+
 ## **iWAN Client Configuration** <a id="iwan-client-configuration"></a>
 📌 **Steps**:
 1️⃣ Select `iWAN` as the WAN connection type
@@ -166,6 +175,92 @@ For enterprises with multiple branches or stores, **secure and stable network in
 
 📌 **Diagram**    
 ![iWAN Client Configuration](assets/iWAN_Client_Conf_2.png)
+
+
+
+---
+
+## 🖥 **Windows Configuration** <a id="windows-configuration"></a>
+After extraction, **double-click** `iWAN.exe` to run.
+
+| Setting     | Description                        |
+|------------|------------------------------------|
+| **Server**  | IP address or domain of iWAN server |
+| **Port**    | Port mapped to iWAN server       |
+| **Username**| iWAN login username              |
+| **Password**| Corresponding password for the username |
+
+---
+
+## 📱 **Android Configuration** <a id="android-configuration"></a>
+After installation, **open** `iwanClient`.
+
+| Setting     | Description                        |
+|------------|------------------------------------|
+| **Server**  | IP address or domain of iWAN server |
+| **Port**    | Port mapped to iWAN server       |
+| **Username**| iWAN login username              |
+| **Password**| Corresponding password for the username |
+
+---
+
+## 🍏 **iOS Configuration** <a id="ios-configuration"></a>
+Download and install `iwanClient` from the App Store, then **open** `iwanClient`.
+
+| Setting     | Description                        |
+|------------|------------------------------------|
+| **Server**  | IP address or domain of iWAN server |
+| **Port**    | Port mapped to iWAN server       |
+| **Username**| iWAN login username              |
+| **Password**| Corresponding password for the username |
+
+---
+
+## 🐧 **Linux Configuration** <a id="linux-configuration"></a>
+
+### 📂 **Create Configuration Directory**
+Before running the program, manually configure the server settings. 
+Use the following command to **create the `/etc/sdwan` directory**:
+```bash
+sudo mkdir /etc/sdwan
+sudo vim /etc/sdwan/iwan.conf
+```
+
+### 📂 **Create Configuration File**
+
+```bash
+[iwan0]
+server=Server_IP
+username=Login_Username
+password=Password
+port=Server_Port
+mtu=Maximum_Transmission_Unit
+encrypt=Encryption (0: No encryption, 1: Encrypted)
+```
+
+### 📤 **Upload the Program**
+Use `scp` to upload the files to the backend.
+
+### 🔑 **Grant Execution Permission**
+```bash
+chmod +x /root/sdwand
+```
+
+### ▶️ **Run the Program**
+```bash
+/root/sdwand &
+```
+
+### 🔍 **Verify iWAN Interface**
+Run `ifconfig` to check the added `iwan0` interface, which should be automatically assigned an IP.
+
+### 🚦 **Add a Static Route**
+Add a static route for the iWAN network segment:
+```bash
+route add –net x.x.x.x/nn dev iwan0
+```
+
+---
 
 # 📞 **Contact Us** <a id="contact-us"></a>  
 🔗 Official Website: [www.panabit.com](https://www.panabit.com/)  
