@@ -172,6 +172,8 @@ For enterprises with multiple branches or stores, **secure and stable network in
 ---
 
 ## **iWAN Client Configuration** <a id="iwan-client-configuration"></a>
+### 🖥 **Panabit Configuration** <a id="panabit-configuration"></a>
+
 📌 **Steps**:
 1️⃣ Select `iWAN` as the WAN connection type
 
@@ -187,7 +189,7 @@ For enterprises with multiple branches or stores, **secure and stable network in
 
 ---
 
-## 🖥 **Windows Configuration** <a id="windows-configuration"></a>
+### 🖥 **Windows Configuration** <a id="windows-configuration"></a>
 After extraction, **double-click** `iWAN.exe` to run.
 
 | Setting     | Description                        |
@@ -199,7 +201,7 @@ After extraction, **double-click** `iWAN.exe` to run.
 
 ---
 
-## 📱 **Android Configuration** <a id="android-configuration"></a>
+### 📱 **Android Configuration** <a id="android-configuration"></a>
 After installation, **open** `iwanClient`.
 
 | Setting     | Description                        |
@@ -211,7 +213,7 @@ After installation, **open** `iwanClient`.
 
 ---
 
-## 🍏 **iOS Configuration** <a id="ios-configuration"></a>
+### 🍏 **iOS Configuration** <a id="ios-configuration"></a>
 Download and install `iwanClient` from the App Store, then **open** `iwanClient`.
 
 | Setting     | Description                        |
@@ -223,9 +225,9 @@ Download and install `iwanClient` from the App Store, then **open** `iwanClient`
 
 ---
 
-## 🐧 **Linux Configuration** <a id="linux-configuration"></a>
+### 🐧 **Linux Configuration** <a id="linux-configuration"></a>
 
-### 📂 **Create Configuration Directory**
+#### 📂 **Create Configuration Directory**
 Before running the program, manually configure the server settings. 
 Use the following command to **create the `/etc/sdwan` directory**:
 ```bash
@@ -233,7 +235,7 @@ sudo mkdir /etc/sdwan
 sudo vim /etc/sdwan/iwan.conf
 ```
 
-### 📂 **Create Configuration File**
+#### 📂 **Create Configuration File**
 
 ```bash
 [iwan0]
@@ -245,23 +247,23 @@ mtu=Maximum_Transmission_Unit
 encrypt=Encryption (0: No encryption, 1: Encrypted)
 ```
 
-### 📤 **Upload the Program**
+#### 📤 **Upload the Program**
 Use `scp` to upload the files to the backend.
 
-### 🔑 **Grant Execution Permission**
+#### 🔑 **Grant Execution Permission**
 ```bash
 chmod +x /root/sdwand
 ```
 
-### ▶️ **Run the Program**
+#### ▶️ **Run the Program**
 ```bash
 /root/sdwand &
 ```
 
-### 🔍 **Verify iWAN Interface**
+#### 🔍 **Verify iWAN Interface**
 Run `ifconfig` to check the added `iwan0` interface, which should be automatically assigned an IP.
 
-### 🚦 **Add a Static Route**
+#### 🚦 **Add a Static Route**
 Add a static route for the iWAN network segment:
 ```bash
 route add –net x.x.x.x/nn dev iwan0
@@ -269,7 +271,7 @@ route add –net x.x.x.x/nn dev iwan0
 
 ---
 
-# 📞 **Contact Us** <a id="contact-us"></a>  
+## 📞 **Contact Us** <a id="contact-us"></a>  
 🔗 Official Website: [www.panabit.com](https://www.panabit.com/)  
 🔗 Forum: [bbs.panabit.com](https://bbs.panabit.com/)  
 📧 Technical Support: support@panabit.com
