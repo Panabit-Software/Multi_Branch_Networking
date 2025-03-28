@@ -24,7 +24,7 @@
   - [连锁门店无线互联](#连锁门店无线互联)
 - [iWAN 配置指南](#iwan-配置指南)
   - [iWAN 服务器配置](#iwan-服务端配置)
-  - [iWAN 客户端下载](#iWAN-客户端下载)
+  - [iWAN 客户端下载](#iwan-客户端下载)
   - [iWAN 客户端配置](#iwan-客户端配置)
     - [Panabit 版本配置](#panabit-版本配置)
     - [Windows 版本配置](#windows-版本配置)
@@ -155,7 +155,7 @@
 ![iWAN服务器配置](assets/iWAN_Server_Conf_5.png)
 
 ---
-## **iWAN 客户端下载** <a id="iWAN-客户端下载"></a>
+## **iWAN 客户端下载** <a id="iwan-客户端下载"></a>
 📥 **iWAN 客户端下载地址**：[👉 点此下载](https://download.panabit.com:9443/ecool.php)
 
 > 📝 **注**：Windows 版本、安卓版本与 Linux 版本均在压缩包内。
